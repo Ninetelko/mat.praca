@@ -1,0 +1,432 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.bd{
+	height: 90vw;
+}
+
+body 	{
+	background-image: url(../pozadie.jpg);
+	width: vw;
+	background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;}
+ 
+header{
+	
+	background-size: cover;
+	background-position: center;
+	min-height: 100px;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 1vw;
+	margin-right:60px ;
+	font-size: 0.8vw;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+background-color:#fff;
+	color: #000;
+
+}
+
+.bike {
+	width: 30vw;
+	float: left;
+	margin-top: 5%;
+	margin-left: vw;
+}
+
+
+
+.logo {
+    float: right;
+	width: 15vw;
+	height: auto;
+	margin: 2%;
+	margin-right: 3vw;
+
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 20vw;
+	left: 70%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 4vw;
+	text-align: right;
+}
+
+.vitajte {
+     color: #fff;
+	 position: absolute;
+	top: 30vw;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	font-size: 1.5vw;
+	margin-top: 3vw;
+	text-align: right;
+}
+
+.main ul li:hover .sub-menu
+{
+	display: block;
+	position: absolute;
+	background-color: rgb(0,45,117);
+	margin-top: 12px;
+	margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul 
+{
+	display: block;
+	margin:6px;
+
+}
+.main ul li:hover .sub-menu ul li
+{
+	width: 75px;
+	padding: 5px;
+	border-bottom: 1px#fff;
+	background: transparent;
+	transition: 0.4s ease;
+	text-align: left;
+	border-radius: 0;
+	
+}
+
+.main ul li:hover .sub-menu ul li:last-child 
+{
+	border-bottom: none;
+}
+
+.soc {
+	float: left; position: absolute;
+	top: 43vw;
+	left: 80%;
+	transform: translate(-50%,-50%);
+}
+
+.a {
+	width: 20%;
+	color: #fff;
+  border: #000 2px solid;
+  border-radius: 20px;
+}
+
+
+.p {
+    color: #fff;
+    position: absolute;
+   top: 53vw;
+   left: 70%;
+   transform: translate(-50%,-50%);
+   font-size: 2vw;
+   margin-top: 3vw;
+   text-align: center;
+   width: 15vw;
+  }
+
+  .po {
+    color: #fff;
+    position: absolute;
+   top: 53vw;
+   left: 30%;
+   transform: translate(-50%,-50%);
+   font-size: 2vw;
+   margin-top: 3vw;
+   text-align: center;
+   width: 15vw;
+  }
+
+  .popis {
+    color: #fff;
+    position: absolute;
+   top: 53vw;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 2vw;
+   margin-top: 3vw;
+   text-align: center;
+   width: 15vw;
+  }
+
+  .v {
+	position: absolute;
+	width: 15vw ;
+	margin-top: 8vw;
+	top: 40vw;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  }
+  
+  .ve{
+	position: absolute;
+	width: 15vw ;
+	margin-top: 8vw;
+	top: 40vw;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+  
+  .vet{
+	position: absolute;
+	width: 15vw ;
+	margin-top: 8vw;
+	top: 40vw;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  }
+
+
+  .pa {
+    color: #fff;
+    position: absolute;
+   top: 73vw;
+   left: 70%;
+   transform: translate(-50%,-50%);
+   font-size: 2vw;
+   margin-top: 3vw;
+   text-align: center;
+   width: 15vw;
+  }
+
+  .poa {
+    color: #fff;
+    position: absolute;
+   top: 73vw;
+   left: 30%;
+   transform: translate(-50%,-50%);
+   font-size: 2vw;
+   margin-top: 3vw;
+   text-align: center;
+   width: 15vw;
+  }
+
+  .popisa {
+    color: #fff;
+    position: absolute;
+   top: 73vw;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 2vw;
+   margin-top: 3vw;
+   text-align: center;
+   width: 15vw;
+  }
+
+  .va {
+	position: absolute;
+	width: 15vw ;
+	margin-top: 8vw;
+	top: 60vw;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  }
+  
+  .vea{
+	position: absolute;
+	width: 15vw ;
+	margin-top: 8vw;
+	top: 60vw;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+  
+  .veta{
+	position: absolute;
+	width: 15vw ;
+	margin-top: 8vw;
+	top: 60vw;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  }
+
+
+  footer {
+		text-align: center;
+		padding: 3px;
+		background-color: #ff6200;
+		height: 10vw;
+		color: white;
+		margin-top: vw;
+		font-size: 1.5vw;
+		padding-top: 6vw;
+	  
+  }
+
+  .foot  {
+	margin-top: 60vw;
+  }
+
+  .foot-ob  {
+	margin-top: 80vw;
+  }
+
+  h2 {
+	color: red;
+	font-size: 3vw;
+    position: absolute;
+   top: 37vw;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   margin-top: 3vw;
+   text-align: center;
+  }
+
+  .ponuka:hover { width: 4vw;
+
+  }
+
+  .bikea {
+	position: absolute;
+	margin-top: 8vw;
+	top: 28vw;
+  left: 33.5%;
+  transform: translate(-50%,-50%);
+
+  width: 30vw;
+  }
+
+
+  .foota {
+	margin-top: 60vw;
+  }
+
+  .btn {
+    font-size: 2vw;
+    cursor: pointer;
+    padding: .1em .6em;
+    border: none;
+    background-color:#fff;
+    border: #fff 0.2vw solid;
+    position: absolute;
+	top: 50vw;
+	left: 80%;
+	transform: translate(-50%,-50%);
+    border-radius: 0.7vw;
+
+  }
+
+  .bt:hover {
+    background-color: #fff;
+    color:#ff6200;
+  }
+
+  a {
+	text-decoration: none;
+	color: #000;
+  }
+
+
+  iframe {
+    position: absolute;
+    width: 25vw ;
+    height: 25vw;
+    margin-top: 8vw;
+    top: 20vw;
+	left: 80%;
+	transform: translate(-50%,-50%);
+}
+
+.kontakt-footer {
+  margin-top: 40vw;
+  height: 10vw;
+}
+
+.popis-kontakt {
+    color: #fff;
+  position: absolute;
+ top: 30vw;
+ left: 40%;
+ transform: translate(-50%,-50%);
+ font-size: 1.5vw;
+ margin-top: 3vw;
+ text-align: left;
+}
+
+.titles {
+	position: absolute;
+	top: 20vw;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+
+.titles h1{
+	color: #fff;
+	font-size: 4vw;
+	text-align: right;
+}
+
+
+.biks {
+	width: 30vw;
+	float: left;
+	margin-top: 5%;
+	margin-left: vw;
+	visibility: hidden;
+}
+
+.oo {
+	width: 25vw;
+	position: absolute;
+    margin-top: 8vw;
+    top: 45vw;
+	left: 38%;
+	transform: translate(-50%,-50%);
+}
+
+.ve:hover {
+  border: #ff6200 solid 2px;
+  opacity: 0.8;
+  border-radius: 11px;
+}
+
+.vet:hover {
+  border: #ff6200 solid 2px;
+  border-radius: 11px;
+  opacity: 0.8;
+}
+
+.fb:hover {
+  border: #ff6200 solid 2px;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+.v:hover {
+  border: #ff6200 solid 2px;
+  border-radius: 11px;
+  opacity: 0.8;
+}
